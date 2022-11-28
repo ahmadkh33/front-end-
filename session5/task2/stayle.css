@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(142, 142, 142, 0.412);
+    background-image: url('http://unsplash.it/1920/1080');
+    background-size: 100%;
+}
+.form-section{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+
+}
+.title{
+    width: 100%;
+    height: 20%;
+    color: white;
+    text-align: center;
+   
+} 
+.title h3{
+    color: rgb(35, 214, 35);
+    font-size: 20px; 
+    
+   
+}  
+.title h1{
+    margin-top: -20px;
+    font-size: 40px; 
+}  
+    
+
+.message{
+    width: 70%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.76);
+    float: left;
+}
+.message input {
+    width: 90%;
+    margin: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(163, 160, 160);
+  background: transparent;
+}
+
+.message textarea{
+    
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    padding: 20px ;
+    border: none;
+    border-bottom: 1px solid rgb(163, 160, 160);
+    background: transparent;
+    margin-left: 20px;
+    font-size: px;
+    
+   
+}
+.message button{
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+  background-color: rgb(35, 214, 35);
+  color: white;
+  margin-left: 45px;
+  font-size: 30px;
+  
+
+}
+.message h3{
+    margin-left: 25px;
+    color:  rgb(255, 255, 255);
+}
+.coneact{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(17, 17, 17);
+    float: left;
+    
+}
+.coneact-titel{
+    width: 100%;
+    height: 10%;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: rgb(237, 232, 232);
+   font-size: 25px;
+}
+.contact-info{
+   margin-left: 30px;
+   margin-top: 40px;
+}
+
+.contact-info h3 {
+    color: rgb(35, 214, 35);
+}
+.contact-info p {
+    color: rgb(151, 151, 151);
+
+}
+.iecon{
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.iecon i {
+    margin-left: 10px;
+}
