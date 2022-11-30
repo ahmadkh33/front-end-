@@ -42,20 +42,25 @@ body{
 }
 .message input {
     width: 90%;
-    margin: 15px;
+    margin-top: 15px;
     margin-left: 20px;
-    padding: 20px;
+    padding: 23px;
     border: none;
     border-bottom: 1px solid rgb(163, 160, 160);
   background: transparent;
+}
+
+.message input:hover{
+    border: 1px solid rgb(35, 214, 35);
+  
 }
 
 .message textarea{
     
     width: 90%;
     height: 200px;
-    margin: 10px;
-    padding: 20px ;
+    margin-top: 10px;
+    padding: 23px ;
     border: none;
     border-bottom: 1px solid rgb(163, 160, 160);
     background: transparent;
@@ -63,6 +68,9 @@ body{
     font-size: px;
     
    
+}
+.message textarea:hover{
+    border: 1px solid rgb(35, 214, 35);
 }
 .message button{
     width: 90%;
