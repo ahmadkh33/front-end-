@@ -5,10 +5,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #7777;
+    height: 10000px;
 
 }
 .container{
-    width:80%;
+    width:1200px;
     margin: auto;
 }
 .btn{
@@ -26,7 +27,23 @@ body{
     text-transform: uppercase;
    
 }
-
+.heading{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.heading h3{
+   color: rgb(0, 0, 0);
+   font-size: 30px;
+   margin-bottom: 23px;
+}
+.heading p{
+    width: 40%;
+    margin: auto;
+     color: #6e6e6c;
+     font-size: 16px; 
+    font-weight: 300;
+    line-height: 1.5em;
+}
 /*start nav*/
 nav{
     overflow:auto;
@@ -34,6 +51,7 @@ nav{
     position: fixed;
     z-index: 1;
     width: 100%;
+    
 }
 nav .logo{
     float: left;
@@ -54,11 +72,14 @@ nav .list ul {
 nav .list ul li a {
     text-decoration: none;
     float: left; 
-    padding: 8px 20px;
+    padding: 8px 13px;
     color: #fff;    
-    font-size: 25px;                          
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;                          
     
 }
+
 nav .list ul li a:hover{
     color: #f3487f;
 }
@@ -67,7 +88,7 @@ nav .list ul li a:hover{
 header{
     background: url(../img/banner-bg.jpg) no-repeat center center/cover;
     width: 100%;
-    height: 700px;
+    height: 1200px;
    position: relative;
 }
 header .overlay-bg{
@@ -102,10 +123,169 @@ header .header-info p{
         font-size: 16px;
         font-weight: 300;
         margin-bottom: 60px;
+        color: #666363;
     }
 
 
-header .header-info button{
+
+/*end header*/
+
+/*start History*/
+.History{
+    background-color: #f2f5f7;
+    padding: 70px 0;
+    overflow: auto;
+}
+.History .History-dec{
+    width: 100%;
+    height:450px ;
+    background-color: white;
+}
+ .History .History-img{
+    float: left;
+    width: 33.3333%;
+    
+ }
+ .History .History-img img{
+
+    margin: -25px 25px;
+ }
+
+
+ .History  .History-info{
+    float: left;
+    width: 50%;  
+    margin-left: 90px;
+    margin-top: 36px;
+    padding: 24px;
+  
+    
+ }
+ .History .list-btn .btn:first-child{
+    padding: 0 35px;
+    background-color:#6a4dc5 ;
+    color:#fff ;
+    line-height: 35px;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+}
+.History .list-btn .btn{
+    padding:0 35px;
+    background-color: transparent;
+    border: 1px solid #7777;
+    color:#7777;
+    
+   text-transform: capitalize;
+   line-height: 35px;
+   
+
+}
+.History .list-btn .btn:hover{
+    background-color: #6a4dc5;
+    color: rgb(255, 255, 255);
+}
+
+.History  .History-info h3{
+    color:rgb(0, 0, 0) ;
+    font-size: 27px;
+    margin-bottom:22px ;
+}
+
+
+.History  .History-info p{
+    color:#777777;
+    font-size: 14px;
+    }
+
+/*end History*/
+
+/*start skill*/
+.skils{
+    background: #f3487f;
+    height: 584px;
+}
+.skils .skils-info{
+    float: left;
+    width: 25%;
+   
+    
+    
+
+}
+.skils .skils-info .skils-icon{
+    background-color: #fff;
+    text-align: center;
+    padding: 98px 0;
+}
+.skils .skils-info .skils-icon:hover{
+    background-color: #f3487f;
+    color: #fff;
+}
+.skils .skils-info .skils-icon:hover p{
+    color: #fff;
+}
+.skils .skils-info .skils-icon:hover i{
+    color: #fff;
+}
+
+.skils .skils-info .skils-icon p{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.skils .skils-info .skils-icon .icons{
+    color: #f3487f;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.skils .skils-info .skils-dec{
+    background-color: #6f7598;
+    padding: 96px 26px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/*end skill*/
+/*start Experiences*/
+.Experiences{
+    padding: 70px 0;
+}
+
+.Experiences .Vector .Vector-info{
+    float: left;
+    width: 25%;
    
 }
-/*end header*/
+.Experiences .Vector .Vector-info .Vector-img img{
+    width: 90%;
+}
+
+.Experiences .Vector .Vector-dec{
+    float: left;
+    width:50% ;
+  
+
+}
+.Experiences .Vector .Vector-dec{
+  padding: 30px 0;
+}
+.Experiences .Vector .Vector-dec h2{
+    color: rgb(238, 0, 0);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.Experiences .Vector .Vector-dec h5{
+    color: #000;
+}
+
+.Experiences .Vector .Vector-dec p{}
+
+.Experiences .Vector .Vector-dec .btn{}
+
+/*end Experiences*/
