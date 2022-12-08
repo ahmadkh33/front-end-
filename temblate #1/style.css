@@ -5,7 +5,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #7777;
-    height: 10000px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
 
 }
 .container{
@@ -123,7 +125,7 @@ header .header-info p{
         font-size: 16px;
         font-weight: 300;
         margin-bottom: 60px;
-        color: #666363;
+        color: #ffffff;
     }
 
 
@@ -202,7 +204,9 @@ header .header-info p{
 /*start skill*/
 .skils{
     background: #f3487f;
-    height: 584px;
+    height: 500px;
+    overflow: auto;
+    
 }
 .skils .skils-info{
     float: left;
@@ -215,7 +219,7 @@ header .header-info p{
 .skils .skils-info .skils-icon{
     background-color: #fff;
     text-align: center;
-    padding: 98px 0;
+    padding: 89px 0;
 }
 .skils .skils-info .skils-icon:hover{
     background-color: #f3487f;
@@ -237,12 +241,12 @@ header .header-info p{
 .skils .skils-info .skils-icon .icons{
     color: #f3487f;
     font-size: 30px;
-    margin-bottom: 20px;
+   
     
 }
 .skils .skils-info .skils-dec{
     background-color: #6f7598;
-    padding: 96px 26px;
+    padding: 93px 26px;
     color: #fff;
     text-align: center;
 }
@@ -253,6 +257,7 @@ header .header-info p{
 /*start Experiences*/
 .Experiences{
     padding: 70px 0;
+    overflow:auto;
 }
 
 .Experiences .Vector .Vector-info{
@@ -270,22 +275,265 @@ header .header-info p{
   
 
 }
-.Experiences .Vector .Vector-dec{
-  padding: 30px 0;
+.Experiences .Vector .Vector-dec .Vector-detal{
+  padding: 40px 20px;
 }
 .Experiences .Vector .Vector-dec h2{
-    color: rgb(238, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 30px;
     margin-bottom: 20px;
     text-transform: capitalize;
 }
 
 .Experiences .Vector .Vector-dec h5{
-    color: #000;
+    color: #5d5d5d;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 17px;
 }
 
-.Experiences .Vector .Vector-dec p{}
+.Experiences .Vector .Vector-dec p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 0;
+    
 
-.Experiences .Vector .Vector-dec .btn{}
+}
 
+.Experiences .Vector .Vector-dec .btn{
+ color: #6a4dc5;
+ background-color: transparent;
+ border: 1px solid #eee;
+ font-size: 18px;
+ padding: 0 30px;
+ font-weight: normal;
+ letter-spacing: 0;
+}
+.Experiences .Vector .Vector-dec .btn:hover{
+    background-color: #6a4dc5;
+    color: #fff;
+}
 /*end Experiences*/
+
+
+
+/*start project*/
+
+.project{
+    background-color: #5dd1e3;
+    padding: 100px 0;
+}
+.project .heading h3 {
+    color: #fff;
+}
+.project .heading p{
+    color: #fff;
+}
+.project .some-project{
+    overflow: auto;
+    background-color: #fff;
+    height: 268px;
+    overflow-y: hidden;
+}
+.project .some-project .some-info{
+    float: left;
+    width: 66.6666%;
+}
+.project .some-project .some-info img{
+    width: 93%;
+    height: 268px;
+}
+
+.project .some-project .some-dec{
+    float: left;
+    width: 33.3333%;
+
+}
+.project .some-project .some-dec .some_derals{
+    padding: 50px 48px 50px 0 ;
+}
+
+.project .some-project .some-dec .some_derals h3{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+.project .some-project .some-dec .some_derals p{
+    font-size: 17px;
+    letter-spacing: 0;
+    color: #777777;
+
+}
+
+
+
+
+/*end project*/
+/*start keep*/
+.keep{
+    padding: 100px 0;
+}
+.keep form{
+    width: 90%;
+    overflow: visible;
+    margin: auto;
+}
+
+.keep form input{
+    float: left;
+    width: 42.1111%;
+    height: 56px;
+    padding: 0 25px;
+    margin-right: 27px;
+    margin-bottom: 31px;
+    border: 1px solid #d4d5e0;
+
+
+}
+.keep form input::placeholder{
+    color: #d4d5e0;
+font-size: 20px;
+}
+.keep form:nth-of-type(2){
+    margin-right: 0;
+}
+.keep form textarea{
+    width: 92.1111%;
+    height: 183px;
+    padding: 20px 25px;
+    border: 1px solid #d4d5e0;
+
+
+}
+.keep form textarea::placeholder{
+    color: #d4d5e0;
+font-size: 20px;
+}
+.keep form .btn{
+    float: right;
+    padding: 3px 37px;
+    color: #6a4dc5;
+    border: 1px solid #d4d5e0;
+    margin-top: 15px;
+    margin-right: 23px;
+    font-weight: normal;
+    letter-spacing: 0;
+
+}
+.keep form .btn:hover{
+    background-color: #6a4dc5;
+    color: #fff;
+}
+
+/*end keep*/
+
+/*start Together*/
+
+.Together{
+    background-color: #f9c400;
+    padding: 170px 0;
+}
+.Together .Together-inp{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.Together .Together-inp h3{
+    color: #fff;
+    font-size:30px;
+    width:100% ;
+    margin: auto;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Together .Together-inp form{
+    position: relative;
+}
+.Together .Together-inp form input{
+        padding: 18px 20px;
+        width: 100%;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+
+
+.Together .Together-inp .btn{
+    position:absolute ;
+    padding:3px 24px;
+    top: 4px;
+    right: -39px;
+    background-color: transparent;
+    border: 1px solid #d4d5e0;
+    color: #6a4dc5;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.Together .Together-inp .btn:hover{
+    background-color: #6a4dc5;
+    color: #fff;
+}
+/*end Together*/
+footer{
+    background-color: #4e5375;
+    padding: 100px 0;
+    overflow: auto;
+}
+footer .footer-list{
+    float: left;
+    width: 25%;
+}
+footer .footer-list .list h5{
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .footer-list .list ul {
+    list-style: none;
+}
+footer .footer-list .list ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 4px 0;
+    display: inline-block;
+}
+footer .footer-list .list ul li a:hover{
+    color: #6a4dc5;
+}
+.footer-img{
+    margin: 22px;
+    width: ;
+}
+.end p{
+    margin: 25px;
+    float: left;
+    width: 80%;
+    color: #eee;
+}
+.end p i{
+    color: rgb(255, 5, 5);
+}
+.end-icons a{
+    width: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin: 4px 0;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+   
+}
+.end-icons a:hover{
+    background-color: #f9c400;
+    color: #4e5375;
+}
