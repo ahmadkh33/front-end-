@@ -88,9 +88,9 @@ nav .list ul li a:hover{
 /*end nav*/
 /*start header*/
 header{
-    background: url(../img/banner-bg.jpg) no-repeat center center/cover;
+    background: url(img/banner-bg.jpg) no-repeat center center/cover;
     width: 100%;
-    height: 1200px;
+    height: 600px;
    position: relative;
 }
 header .overlay-bg{
@@ -204,7 +204,7 @@ header .header-info p{
 /*start skill*/
 .skils{
     background: #f3487f;
-    height: 500px;
+    height: 498px;
     overflow: auto;
     
 }
@@ -267,6 +267,7 @@ header .header-info p{
 }
 .Experiences .Vector .Vector-info .Vector-img img{
     width: 90%;
+   
 }
 
 .Experiences .Vector .Vector-dec{
@@ -466,8 +467,8 @@ font-size: 20px;
 
 .Together .Together-inp .btn{
     position:absolute ;
-    padding:3px 24px;
-    top: 4px;
+    padding:1px 38px;
+    top: 5px;
     right: -39px;
     background-color: transparent;
     border: 1px solid #d4d5e0;
