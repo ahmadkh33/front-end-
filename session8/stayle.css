@@ -113,7 +113,7 @@ header .header-info p{
        font-size: 33px;
        font-weight: 400;
        margin: 10px 0 20px;
-       font-family: 'Open Sans',arial;
+       font-family: Arial, Helvetica, sans-serif;
        
 }
 
@@ -151,7 +151,7 @@ header .header-info .btn-twe{
     text-transform: uppercase;
     font-family: 'Open Sans',arial;
     letter-spacing: .2px;
-    font-weight: 700;
+    font-weight: 800;
     -index: 2;
     position: relative;
     border-radius: 4px;
