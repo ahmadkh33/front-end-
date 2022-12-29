@@ -10,7 +10,7 @@ body{
   
 }
 .container{
-    width:1240px;
+    width:1200px;
     margin: auto;
 }
 
@@ -101,7 +101,7 @@ nav .row .list ul li a{
   header .header-info p{  
     font-size: 22px;
     line-height: 1.86em;
-    margin: 10px 16px 20px;
+    margin: 10px 16px 27px;
     font-family: 'Open Sans', sans-serif;
         font-weight: 400;
   }
@@ -115,7 +115,7 @@ nav .row .list ul li a{
     font-family: 'Open Sans',arial;
     letter-spacing: .2px;
     font-weight: 700;
-    -index: 2;
+    z-index: 2;
     position: relative;
     border-radius: 4px;
     color: #fff;
@@ -140,11 +140,10 @@ header .header-info .btn-twe{
     font-family: 'Open Sans',arial;
     letter-spacing: .2px;
     font-weight: 700;
-    -index: 2;
+    z-index: 2;
     position: relative;
     border-radius: 4px;
-    color: rgb(0, 0, 0);
-
+    color: #121212
 }
 
 
@@ -268,7 +267,7 @@ margin-top: 15px;
 }
 .who .row .who-dec h2{
   font-size: 28px;
-    font-weight: 600;
+    font-weight: 400;
     color: #303030;
     margin-bottom: 25px;
 }
@@ -360,7 +359,7 @@ margin-top: 15px;
   }
   .our .row .our-dec h2{
     font-size: 28px;
-      font-weight: 600;
+      font-weight: 400;
       color: #303030;
       margin-bottom: 25px;
   }
@@ -541,7 +540,7 @@ color: #fff;
 }
 
 .opinions .bg-overlay .opinions-dec .cloud{
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 40px;
 }
 .opinions .bg-overlay .opinions-dec p{
@@ -636,7 +635,7 @@ color: #fff;
   color: #303030;
   font-family: "Roboto";
   font-weight: 500;    
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1.4em;
 }
 .work .work-dec p{ 
